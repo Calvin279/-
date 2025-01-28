@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.registro-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.registro-form input, .registro-form button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.buscador {
+    margin-bottom: 20px;
+}
+
+.buscador input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.cumplido {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.incumplido {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.notificaciones {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffdddd;
+    border-radius: 4px;
+}

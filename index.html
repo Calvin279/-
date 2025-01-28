@@ -1,0 +1,42 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Horas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Horas de Trabajo</h1>
+        
+        <div class="registro-form">
+            <input type="text" id="nombreInput" placeholder="Nombre">
+            <input type="text" id="rangoInput" placeholder="Rango">
+            <input type="datetime-local" id="entradaInput">
+            <input type="datetime-local" id="salidaInput">
+            <button onclick="registrarHoras()">Registrar</button>
+        </div>
+
+        <div class="buscador">
+            <input type="text" id="buscarInput" placeholder="Buscar por nombre" oninput="buscarPersona()">
+        </div>
+
+        <table id="horasTable">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Rango</th>
+                    <th>Entrada</th>
+                    <th>Salida</th>
+                    <th>Tiempo Trabajado</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="tablaRegistros"></tbody>
+        </table>
+
+        <div id="notificaciones" class="notificaciones"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
